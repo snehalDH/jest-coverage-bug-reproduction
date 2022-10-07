@@ -6,7 +6,7 @@ function sum(a, b) {
 }
 
 function rest(a, b) {
-    c.multiply(2,4);
+    c.multiply(a,b);
     return a - b;
 }
 
