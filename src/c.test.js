@@ -1,5 +1,4 @@
 const a = require('./a.js');
-const c = require('./c.js');
 
 test('a sum function works', () => {
   expect(a.sum(1, 2)).toBe(3);
@@ -8,5 +7,4 @@ test('a sum function works', () => {
 test('a rest function works', () => {
   expect(a.rest(2, 1)).toBe(1);
 });
-
-console.log('calling function from c', c.multiply(1,2));
+//
