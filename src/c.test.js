@@ -1,10 +1,9 @@
-const a = require('./a.js');
+const c = require('./c.js');
 
-test('a sum function works', () => {
-  expect(a.sum(1, 2)).toBe(3);
+test('c sum function works', () => {
+  expect(c.multiply(1, 2)).toBe(2);
 });
 
-test('a rest function works', () => {
-  expect(a.rest(2, 1)).toBe(1);
+test('c extraFunc function works', () => {
+  expect(c.extraFunc()).toBe(1);
 });
-//
